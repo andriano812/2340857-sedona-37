@@ -432,7 +432,8 @@ body {
     top: -71px;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
 }
 
 .service-description {
@@ -775,7 +776,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     min-height: 160px;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 
